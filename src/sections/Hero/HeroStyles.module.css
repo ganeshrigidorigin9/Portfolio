@@ -107,7 +107,7 @@ button:hover {
 
     }
 }
-@media (width<=360px)
+@media (width<=768px)
 {
     .colorMode{
         position:absolute;
@@ -116,3 +116,4 @@ button:hover {
 
     }
 }
+

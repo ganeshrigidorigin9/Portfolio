@@ -67,6 +67,7 @@
 
   .menuToggle:checked ~ .hamburger .bars {
     display: none; /* Hide the bars icon when the menu is open */
+    
   }
 
   .menuToggle:checked ~ .hamburger .times {
@@ -82,16 +83,5 @@
   .link {
     font-size: 9px;
     font-weight: bold;
-  }
-}
-
-@media (max-width: 350px) {
-  .Navbar {
-    height: 40px;
-  }
-
-  .list {
-    margin-right: 17px;
-    flex-wrap: wrap;
   }
 }
