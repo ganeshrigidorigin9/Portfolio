@@ -113,3 +113,12 @@ p {
     margin-bottom: 80px;
   }
 }
+@media(width<=360px)
+{
+    #root
+    {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+    }
+}
