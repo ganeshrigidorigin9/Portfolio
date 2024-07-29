@@ -8,7 +8,7 @@ const Projects = () => {
     <section id="projects" className={styles.container}>
         <h1 className='sectionTitle'>Projects</h1>
         <div className={styles.projectsContainer}>
-        <a href="https://github.com/ganeshrigidorigin9/HTMl_CSS_FRONTED">
+        <a href="https://github.com/ganeshrigidorigin9/Wordgame">
          <img className={styles.hover}src={puzzleImg} alt="PuzzleImg"/>
          <h3>GuessTheWord</h3>
          <p>word guessing designed 
@@ -25,10 +25,12 @@ const Projects = () => {
            win cash built using react</p>
         </a>
 
-        <a href="">
+        <a href="https://github.com/ganeshrigidorigin9/PriceCompariosonWebsite">
          <img className={styles.hover}src={blogImg} alt="BlogImg"/>
-         <h3>Blog</h3>
-         <p>Blog about posts</p>
+         <h3>Price Comparison Website</h3>
+         <p>Product Price Comparisons
+          <br/>
+          from different websites</p>
         </a>
 
         <a href="https://github.com/ganeshrigidorigin9/Python_Project">

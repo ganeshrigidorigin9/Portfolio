@@ -13,7 +13,7 @@
 
 .hamburger {
   display: none;
-  cursor: pointer;
+  cursor:pointer;
 }
 
 .hamburger .times {
@@ -43,37 +43,40 @@
   color: var(--hover-color);
 }
 
-@media (max-width: 768px) {
+ @media (max-width: 768px) {
   .hamburger {
     display: block;
   }
 
   .list {
-    display: none; /* Hide the menu by default on mobile */
+    display: none; 
     flex-direction: column;
     position: absolute;
-    top: 60px; /* Adjust based on your layout */
+    top: 60px; 
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color:var (--background-color);
     padding: 0;
     gap: 5px;
-    z-index: 1; /* Ensure the menu appears on top of other elements */
+    z-index: 1; 
+  }
+  .link{
+    color:var(--navbar-text-color);
   }
 
   .menuToggle:checked ~ .list {
-    display: flex; /* Show the menu when the checkbox is checked */
+    display:flex; 
   }
 
   .menuToggle:checked ~ .hamburger .bars {
-    display: none; /* Hide the bars icon when the menu is open */
+    display: none; 
     
   }
 
   .menuToggle:checked ~ .hamburger .times {
-    display: block; /* Show the times icon when the menu is open */
+    display: block; 
   }
-
+  
   .navbarItem {
     margin: 0;
     padding: 15px;

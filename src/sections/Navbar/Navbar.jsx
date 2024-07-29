@@ -6,7 +6,7 @@ import styles from './NavbarStyles.module.css';
 function Navbar() {
   return (
     <nav className={styles.Navbar}>
-      <input type="checkbox" id="menu-toggle" className={styles.menuToggle} />
+      <input type="checkbox" id="menu-toggle" className={styles.menuToggle}/>
       <label htmlFor="menu-toggle" className={styles.hamburger}>
         <FaBars className={styles.bars} />
         <FaTimes className={styles.times} />
